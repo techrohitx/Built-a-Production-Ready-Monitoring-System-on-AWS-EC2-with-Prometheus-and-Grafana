@@ -237,12 +237,13 @@ Configured alert rules are loaded and monitoring:
 
 ### Grafana Dashboard
  
- **To add a Prometheus data source in Grafana, go to Settings → Data Sources → Add Prometheus → enter URL (http://Prometheus public_ip:9090) and click Save & Test.**
+ To add a Prometheus data source in Grafana, go to Settings → Data Sources → Add Prometheus → enter URL **(http://Prometheus public_ip:9090)** and click Save & Test.
 
 ![Grafana Dashboard](img/prometheus_data-sources.png)
 
 Node Exporter Full dashboard displaying real-time metrics:
-[Grafana Dashboard](img/dash_bord-graphana.png)
+
+![Grafana Dashboard](img/dash_bord-graphana.png)
 
 
 ## 🔔 Alert Testing
