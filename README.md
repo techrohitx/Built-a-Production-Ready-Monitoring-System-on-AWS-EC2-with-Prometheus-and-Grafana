@@ -138,7 +138,9 @@ sudo systemctl daemon-reload
 sudo systemctl start node_exporter
 sudo systemctl enable node_exporter
 ```
-
+---
+### see the node_exporter matrics ----> Node_exporter-1 orNode_exporter-1<public_ip>:9100
+![Grafana Dashboard](img/metrics.png)
 
 ### Step 4: Configure Prometheus
 
@@ -234,12 +236,13 @@ Configured alert rules are loaded and monitoring:
 ![Prometheus Alerts](img/stress-pro.png)
 
 ### Grafana Dashboard
-Node Exporter Full dashboard displaying real-time metrics:
+ 
+ **To add a Prometheus data source in Grafana, go to Settings → Data Sources → Add Prometheus → enter URL (http://Prometheus public_ip:9090) and click Save & Test.**
 
 ![Grafana Dashboard](img/prometheus_data-sources.png)
----
 
-![Grafana Dashboard](img/dash_bord-graphana.png)
+Node Exporter Full dashboard displaying real-time metrics:
+[Grafana Dashboard](img/dash_bord-graphana.png)
 
 
 ## 🔔 Alert Testing
